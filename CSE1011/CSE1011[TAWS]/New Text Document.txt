@@ -1,0 +1,6 @@
+Mr. Sakib has a monthly salary of 30000 Taka. With that salary he gets an additional 30% for house rent, 12% for medical allowance and 4.5% for transport. 
+I) Now calculate his total salary, house rent, medical allowance and transport amount.
+II) Now find out what type of house he can rent on the basis of the following chart:
+a. If house rent is < 4000 Tk, rent a room.
+b. If house rent is between 4000 and 6000 Tk, rent a small flat.
+c. If house rent is > 6000 Tk, rent a small house.

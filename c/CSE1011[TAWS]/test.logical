@@ -1,0 +1,6 @@
+#include<stdio.h>
+void main(void)
+{
+int a=5,b=3;
+printf("5d%d",(a>b)&&(a!=b),!(b>a)||(b==a));
+}

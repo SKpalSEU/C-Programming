@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main()
+{
+    int n1,n2,A[50],B[50];
+    int arr[50],n=0,i,j,cnt;
+    scanf("%d",&n1);
+    for(i=0;i<n1;i++) scanf("%d",A[i]);
+    scanf("%d",&n2);
+    for(i=0;i<n2;i++) scanf("%d",&B[i]);
+
+    for(i=0;i<n1;i++)
+    {
+        arr[n]=A[i];
+        n++;
+    }
+    for(i=0;i<n2;i++)
+    {
+        arr[n]=B[i];
+        n++;
+    }
+    for(i=0;i<n;i++)
+    {
+        cnt=0;
+        for(j=i+1;j<n;j++)
+        {
+            if(arr[j]==arr[i]) cnt++;
+        }
+        if(cnt==0) printf("%d ",arr[i]);
+
+    }
+        return 0;
+}

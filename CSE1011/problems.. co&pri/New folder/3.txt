@@ -1,0 +1,22 @@
+
+#include<stdio.h>
+int main()
+{
+int cost_price,selling_price,profit,loss;
+scanf("%d%d",&cost_price,&selling_price);
+if(cost_price<selling_price)
+{
+	profit=selling_price-cost_price;
+
+	printf(" profit is %d",profit);
+}
+else
+{
+	loss=cost_price-selling_price;
+	printf("loss is %d",loss);
+}
+
+return 0;
+
+}
+

@@ -1,0 +1,38 @@
+#include<stdio.h>
+int main()
+{
+    int number1,number2,number3,maximum,minimum;
+    printf ("Enter number");
+    scanf ("%d%d%d",&number1,&number2,&number3);
+    if ((number1>number2)&&(number1>number3))
+    {
+        maximum=number1;
+    }
+    else if(number2>number3)
+    {
+        maximum=number2;
+    }
+    else
+    {
+        maximum=number3;
+
+    }
+    printf ("maximum number=%d",maximum);
+
+
+
+    if ((number1>number2)&&(number2>number3))
+    {
+        minimum=number3;
+    }
+    else if(number1>number2)
+    {
+        minimum=number2;
+    }
+    else
+    {
+        minimum=number1;
+
+    }
+    printf ("\nminimum number=%d",minimum);
+}
